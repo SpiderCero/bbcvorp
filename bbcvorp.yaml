@@ -414,11 +414,6 @@ tasks:
     dest: ./resources/[bcc]/bcc-zonenotify
 
   - action: download_github
-    src: https://github.com/BryceCanyonCounty/rdr3-nativedb-data
-    ref: master
-    dest: ./resources/[bcc]/rdr3-nativedb-data
-
-  - action: download_github
     src: https://github.com/BryceCanyonCounty/vorp_txadmin_recipe
     ref: main
     dest: ./resources/[bcc]/vorp_txadmin_recipe
