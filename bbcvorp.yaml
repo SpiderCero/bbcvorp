@@ -300,7 +300,7 @@ tasks:
 
   - action: download_github
     src: https://github.com/BryceCanyonCounty/bcc-playerblips
-    ref: main
+    ref: master
     dest: ./resources/[bcc]/bcc-playerblips
 
   - action: download_github
