@@ -415,7 +415,7 @@ tasks:
 
   - action: download_github
     src: https://github.com/BryceCanyonCounty/rdr3-nativedb-data
-    ref: main
+    ref: master
     dest: ./resources/[bcc]/rdr3-nativedb-data
 
   - action: download_github
